@@ -13,11 +13,11 @@ The raw crowdfunding excel file was organized and manipulated to reveal trends i
 
 
 **Pivot Tables.** Three pivot tables were created to provide a better breakdown of the data. The first pivot table showed how many campaigns were successful, failed, canceled, or are currently live per **category**. To visualize the category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these categories. The pivot chart can be filtered based on country. The second pivot table showed how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**. The pivot table can be filtered by country and primary category. To visualize the sub-category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these sub-categories. The pivot chart can be filtered based on the parent category and country. The last pivot table contained information on the number of campaigns that were successful, failed, canceled, or are currently live per month. This pivot table can be filtered based on category and year. A pivot-chart line graph was created to visualize the data.
-![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/758a97a2-5461-405d-acf4-bf00a59c700a)
+![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/c3473009-39e8-448f-bdc1-9fdad97521e3)
 
 
 **Goal Analysis.** A breakdown of the number of successful, failed, canceled, and projects and the percentage of successful, failed, canceled, and projects per funding goal. A line graph was created to illustrate the relationship between the percent of successful projects and the funding goal.
-![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/cd71048e-c2ac-468f-93a7-046c63ba9c60)
+![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/a31ef96a-f0c5-44a1-8843-1818f296933d)
 
 
 **Statistical Analysis.** 
