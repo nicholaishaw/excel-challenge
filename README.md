@@ -9,17 +9,24 @@ To receive funding, the project must meet or exceed an initial goal, so many org
 The raw crowdfunding excel file was organized and manipulated to reveal trends in crowdfunding projects. 
 
 **Database Organization.** Conditional formatting was applied to the 'outcome' column to easily identify which projects were successful, failed, canceled, or currently live. A 'percent funded' column that used a formula to find how much money a campaign made relative to its initial funding goal. Conditional formatting was applied to this new 'percent funded' column to scale with how the project earnings relative to the funding they received. After condition formatting was applied to both columns, the 'category & subcategory' column was split into two columns: 'category' and 'subcategory' for a more percise analysis of each project. For instance, 'music/rock' in the 'category & subcategory' column would be split into 'music' for the category and 'rock' for the sub-category. Lastly, the dates in 'deadline' and 'launched_at' columns were converted from Unix timestamps into excel date format.
-![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/37437e39-4fbd-4c8e-8c24-7a9abeeff169)
+
+  ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/37437e39-4fbd-4c8e-8c24-7a9abeeff169)
+  **Figure 1.** Overview of the conditional formatting applied to the 'outcome' and 'percent funded' columns.
 
 
 **Pivot Tables.** Three pivot tables were created to provide a better breakdown of the data. The first pivot table showed how many campaigns were successful, failed, canceled, or are currently live per **category**. To visualize the category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these categories. The pivot chart can be filtered based on country. The second pivot table showed how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**. The pivot table can be filtered by country and primary category. To visualize the sub-category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these sub-categories. The pivot chart can be filtered based on the parent category and country. The last pivot table contained information on the number of campaigns that were successful, failed, canceled, or are currently live per month. This pivot table can be filtered based on category and year. A pivot-chart line graph was created to visualize the data.
-![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/c3473009-39e8-448f-bdc1-9fdad97521e3)
 
+  ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/c3473009-39e8-448f-bdc1-9fdad97521e3)
+  **Figure 2.** A sample pivot table and chart of the outcome data per month.
 
 **Goal Analysis.** A breakdown of the number of successful, failed, canceled, and projects and the percentage of successful, failed, canceled, and projects per funding goal. A line graph was created to illustrate the relationship between the percent of successful projects and the funding goal.
-![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/a31ef96a-f0c5-44a1-8843-1818f296933d)
+
+  ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/a31ef96a-f0c5-44a1-8843-1818f296933d)
+  **Figure 3.** Breakdown of the project outcomes per funding goal. 
 
 
 **Statistical Analysis.** 
 Using VLOOKUP, the number of backers for each project for the successful and unsuccessful outcomes. The mean, median, minimum, and maximum backers were analyzed along with the variance and standard deviations for each outcome.
-![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/ef27f623-e166-43e4-bf8d-2b04d4e13bd1)
+
+  ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/ef27f623-e166-43e4-bf8d-2b04d4e13bd1)
+  **Figure 4.** Descriptive statistics of the successful and failed outcomes.
