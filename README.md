@@ -7,5 +7,7 @@ To receive funding, the project must meet or exceed an initial goal, so many org
 
 ## Analysis
 Using the raw data, the excel sheet was organized and manipulated to reveal trends in crowdfunding projects. 
+
 **Conditional Formatting.** Conditional formatting was applied to the 'outcome' column to easily identify which projects were successful, failed, or canceled. In addition, conditional formatting was applied to the 'percent funded' column to scale with how the project  earnings relative to the funding they received. 
+
 **Pivot Tables.** Two pivot tables were created  was created to display how many 
