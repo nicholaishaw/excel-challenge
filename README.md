@@ -7,13 +7,13 @@ To receive funding, the organization must meet or exceed an initial goal, so man
 
 In this project, we were tasked with organizing the database using conditional formatting and splitting values for easier readability and analysis, creating pivot tables and graphs to examine which categories performed better, and calculating descriptive statistics for the successful and failed outcomes.
 
-## Database Organization:
+## Database Organization
 Conditional formatting was applied to the 'outcome' column to easily identify which projects were successful, failed, canceled, or currently live. A 'percent funded' column that used a formula to find how much money a campaign made relative to its initial funding goal. Conditional formatting was applied to this new 'percent funded' column to scale with how the project earnings relative to the funding they received. After condition formatting was applied to both columns, the 'category & subcategory' column was split into two columns: 'category' and 'subcategory' for a more percise analysis of each project. For instance, 'music/rock' in the 'category & subcategory' column would be split into 'music' for the category and 'rock' for the sub-category. Lastly, the dates in 'deadline' and 'launched_at' columns were converted from Unix timestamps into excel date format.
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/37437e39-4fbd-4c8e-8c24-7a9abeeff169)
   **Figure 1.** *Overview of the conditional formatting applied to the 'outcome' and 'percent funded' columns.*
 
-## Pivot Tables:
+## Pivot Tables
 Three pivot tables were created to provide a better breakdown of the data. The first pivot table showed how many campaigns were successful, failed, canceled, or are currently live per **category**. To visualize the category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these categories. The pivot chart can be filtered based on country. 
 
 The second pivot table showed how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**. The pivot table can be filtered by country and primary category. To visualize the sub-category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these sub-categories. The pivot chart can be filtered based on the parent category and country. 
@@ -23,13 +23,13 @@ The last pivot table contained information on the number of campaigns that were 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/c3473009-39e8-448f-bdc1-9fdad97521e3)
   **Figure 2.** *A sample pivot table and chart: outcome data per month.*
 
-## Goal Analysis: 
+## Goal Analysis
 A breakdown of both the amount and percentage of the successful, failed, and canceled projects per funding goal. A line graph was created to illustrate the relationship between relationship between the percent of successful projects and the funding goal.
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/d144268e-2b00-4791-bc11-f811adba1c04)
   **Figure 3.** *Breakdown of the project outcomes per funding goal.*
 
-## Statistical Analysis:
+## Statistical Analysis
 Using VLOOKUP, the number of backers for each project for the successful and unsuccessful outcomes. The mean, median, minimum, and maximum backers were analyzed along with the variance and standard deviations for each outcome.
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/ef27f623-e166-43e4-bf8d-2b04d4e13bd1)
