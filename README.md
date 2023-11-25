@@ -16,11 +16,11 @@ The raw crowdfunding excel file was organized and manipulated to reveal trends i
 **Pivot Tables.** Three pivot tables were created to provide a better breakdown of the data. The first pivot table showed how many campaigns were successful, failed, canceled, or are currently live per **category**. To visualize the category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these categories. The pivot chart can be filtered based on country. The second pivot table showed how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**. The pivot table can be filtered by country and primary category. To visualize the sub-category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these sub-categories. The pivot chart can be filtered based on the parent category and country. The last pivot table contained information on the number of campaigns that were successful, failed, canceled, or are currently live per month. This pivot table can be filtered based on category and year. A pivot-chart line graph was created to visualize the data.
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/c3473009-39e8-448f-bdc1-9fdad97521e3)
-  **Figure 2.** *A sample pivot table and chart of the outcome data per month.*
+  **Figure 2.** *A sample pivot table and chart: outcome data per month.*
 
 **Goal Analysis.** A breakdown of the number of successful, failed, canceled, and projects and the percentage of successful, failed, canceled, and projects per funding goal. A line graph was created to illustrate the relationship between the percent of successful projects and the funding goal.
 
-  ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/a31ef96a-f0c5-44a1-8843-1818f296933d)
+  ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/d144268e-2b00-4791-bc11-f811adba1c04)
   **Figure 3.** *Breakdown of the project outcomes per funding goal.*
 
 **Statistical Analysis.** 
@@ -30,4 +30,4 @@ Using VLOOKUP, the number of backers for each project for the successful and uns
   **Figure 4.** *Descriptive statistics of the successful and failed outcomes.*
 
   ## Final Analysis
-  
+Using the pivot tables, graphs, and statistical analysis, it is clear that the highest amount of successful crowdfunding projects were theater projects; however, a closer look at the data reveal that technology possessed the highest rate of success. Not only did tech produce the highest rate of success, it also produced the most amount of money. Within tech, the most successful sub-category was 'web' with a success rate of 70.59%. Audio was excluded from analyses since it only had a sample size of three. A careful look at the monthly outcomes data reveal that the most successful month to start a crowdfunding project is July with a total of 58 successful projects. Since the statistical analysis revealed a high degree of variance within the amount of backers for each outcome, the median best summarizes the data. The data reveal that there is more variance in successful campaigns.
