@@ -17,7 +17,7 @@ The raw crowdfunding excel file was organized and manipulated to reveal trends i
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/c3473009-39e8-448f-bdc1-9fdad97521e3)
   **Figure 2.** A sample pivot table and chart of the outcome data per month.
-<br>
+
 **Goal Analysis.** A breakdown of the number of successful, failed, canceled, and projects and the percentage of successful, failed, canceled, and projects per funding goal. A line graph was created to illustrate the relationship between the percent of successful projects and the funding goal.
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/a31ef96a-f0c5-44a1-8843-1818f296933d)
