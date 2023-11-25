@@ -12,7 +12,9 @@ Conditional formatting was applied to the 'outcome' column to easily identify wh
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/37437e39-4fbd-4c8e-8c24-7a9abeeff169)
   **Figure 1.** *Overview of the conditional formatting applied to the 'outcome' and 'percent funded' columns.*
-***
+
+---
+
 ### Pivot Tables:
 Three pivot tables were created to provide a better breakdown of the data. The first pivot table showed how many campaigns were successful, failed, canceled, or are currently live per **category**. To visualize the category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these categories. The pivot chart can be filtered based on country. 
 
