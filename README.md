@@ -10,7 +10,7 @@ Conditional formatting was applied to the 'outcome' column to easily identify wh
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/37437e39-4fbd-4c8e-8c24-7a9abeeff169)
   **Figure 1.** *Overview of the conditional formatting applied to the 'outcome' and 'percent funded' columns.*
-___
+
 ## Pivot Tables:
 Three pivot tables were created to provide a better breakdown of the data. The first pivot table showed how many campaigns were successful, failed, canceled, or are currently live per **category**. To visualize the category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these categories. The pivot chart can be filtered based on country. 
 
@@ -20,13 +20,13 @@ The last pivot table contained information on the number of campaigns that were 
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/c3473009-39e8-448f-bdc1-9fdad97521e3)
   **Figure 2.** *A sample pivot table and chart: outcome data per month.*
-___
+
 ## Goal Analysis: 
 A breakdown of both the amount and percentage of the successful, failed, and canceled projects per funding goal. A line graph was created to illustrate the relationship between relationship between the percent of successful projects and the funding goal.
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/d144268e-2b00-4791-bc11-f811adba1c04)
   **Figure 3.** *Breakdown of the project outcomes per funding goal.*
-___
+
 ## Statistical Analysis:
 Using VLOOKUP, the number of backers for each project for the successful and unsuccessful outcomes. The mean, median, minimum, and maximum backers were analyzed along with the variance and standard deviations for each outcome.
 
