@@ -12,19 +12,16 @@ The raw crowdfunding excel file was organized and manipulated to reveal trends i
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/37437e39-4fbd-4c8e-8c24-7a9abeeff169)
   **Figure 1.** Overview of the conditional formatting applied to the 'outcome' and 'percent funded' columns.
--
-
+  
 **Pivot Tables.** Three pivot tables were created to provide a better breakdown of the data. The first pivot table showed how many campaigns were successful, failed, canceled, or are currently live per **category**. To visualize the category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these categories. The pivot chart can be filtered based on country. The second pivot table showed how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**. The pivot table can be filtered by country and primary category. To visualize the sub-category data, a stacked-column pivot chart was created to display the amount of campaigns were successful, failed, canceled, or are currently live in these sub-categories. The pivot chart can be filtered based on the parent category and country. The last pivot table contained information on the number of campaigns that were successful, failed, canceled, or are currently live per month. This pivot table can be filtered based on category and year. A pivot-chart line graph was created to visualize the data.
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/c3473009-39e8-448f-bdc1-9fdad97521e3)
   **Figure 2.** A sample pivot table and chart of the outcome data per month.
--
-
+<br>
 **Goal Analysis.** A breakdown of the number of successful, failed, canceled, and projects and the percentage of successful, failed, canceled, and projects per funding goal. A line graph was created to illustrate the relationship between the percent of successful projects and the funding goal.
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/a31ef96a-f0c5-44a1-8843-1818f296933d)
   **Figure 3.** Breakdown of the project outcomes per funding goal. 
-
 
 **Statistical Analysis.** 
 Using VLOOKUP, the number of backers for each project for the successful and unsuccessful outcomes. The mean, median, minimum, and maximum backers were analyzed along with the variance and standard deviations for each outcome.
