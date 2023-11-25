@@ -24,7 +24,7 @@ The last pivot table contained information on the number of campaigns that were 
   **Figure 2.** *A sample pivot table and chart: outcome data per month.*
 ___
 ### Goal Analysis: 
-A breakdown of the number of successful, failed, canceled, and projects and the percentage of successful, failed, canceled, and projects per funding goal. A line graph was created to illustrate the relationship between the percent of successful projects and the funding goal.
+A breakdown of both the amount and percentage of the successful, failed, and canceled projects per funding goal. A line graph was created to illustrate the relationship between relationship between the percent of successful projects and the funding goal.
 
   ![image](https://github.com/nicholaishaw/excel-challenge/assets/135463220/d144268e-2b00-4791-bc11-f811adba1c04)
   **Figure 3.** *Breakdown of the project outcomes per funding goal.*
